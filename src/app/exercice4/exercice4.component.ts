@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercice4.component.css']
 })
 export class Exercice4Component implements OnInit {
-  public texts: string[]= ["un", "deux", "trois"];
+  public texts: Array<string>=['un', 'deux', 'trois'];
   constructor() { }
 
   ngOnInit(): void {

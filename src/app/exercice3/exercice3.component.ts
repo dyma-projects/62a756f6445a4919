@@ -11,8 +11,9 @@ export class Exercice3Component implements OnInit {
 
   ngOnInit(): void {
   }
-  public inverser(): boolean{
-    return this.statut == !this.statut;
+  public inverser(): void{
+    this.statut = !this.statut;
+
   }
 
 }
